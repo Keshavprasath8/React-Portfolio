@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* ************************************* */
+/* ************* NAV BAR *************** */
+/* ************************************* */
+header ul li{
+    @apply px-2;
+    @apply py-2;
+}
+.bg-color{
+    background-color: rgba(237, 148, 240, 0.486);
+}
+.mobile-nav{
+    @apply fixed top-14 left-0 w-full;
+}
+/* ************************************* */
+/* ************* Hero 1 *************** */
+/* ************************************* */
+.bg-image{
+    
+    background-image: url("../src/assets/back-hero.png");
+  background-size: cover; 
+  border-image: fill 0 linear-gradient(rgba(255, 22, 22, 0.2), #000);
+  background-color: rgba(56, 56, 56, 0.568); 
+}
+/* ************************************* */
+/* ************* About   *************** */
+/* ************************************* */
+.bg-body{
+    background-color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
